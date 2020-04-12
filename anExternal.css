@@ -1,0 +1,31 @@
+p.a {
+    font-family: Impact, Charcoal, sans-serif;
+  }
+p.b {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p.dotted {
+    border-style: dotted;
+}
+#corners {
+    border-radius: 25px;
+    border: 2px solid rgb(117, 32, 197);
+    padding: 10px; 
+    width: 200px;
+    height: 125px;  
+}
+img.a {
+    float: left;
+}
